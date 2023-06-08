@@ -22,7 +22,7 @@ public class Student {
     private Integer id;
     @NotNull
     @NotBlank
-    @Size(min = 2, max = 30)
+    @Size(min = 2, max = 30, message = "El Apellido debe estar entre 2 y 30 caracteres")
     @Column(name = "last_name", length = 30, nullable = false)
     private String lastName;
     @NotNull
