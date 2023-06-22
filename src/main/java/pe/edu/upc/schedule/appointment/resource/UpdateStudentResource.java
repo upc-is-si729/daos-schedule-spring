@@ -1,14 +1,8 @@
-package pe.edu.upc.schedule.resource;
+package pe.edu.upc.schedule.appointment.resource;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Past;
-import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.*;
 import lombok.*;
 import org.springframework.format.annotation.DateTimeFormat;
-import pe.edu.upc.schedule.domain.model.entity.Career;
 
 import java.util.Date;
 
@@ -17,7 +11,11 @@ import java.util.Date;
 @With
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateStudentResource {    // Input - Request
+public class UpdateStudentResource {
+    @NotNull
+    @NotBlank
+    @Min(1)
+    private Integer id;
 
     @NotNull
     @NotBlank
@@ -38,5 +36,4 @@ public class CreateStudentResource {    // Input - Request
     @NotBlank
     @Size(min = 9, max = 9)
     private String tiu;
-
 }

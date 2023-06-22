@@ -1,15 +1,15 @@
-package pe.edu.upc.schedule.api;
+package pe.edu.upc.schedule.appointment.api;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pe.edu.upc.schedule.domain.model.entity.Student;
-import pe.edu.upc.schedule.domain.service.StudentService;
-import pe.edu.upc.schedule.mapping.StudentMapper;
-import pe.edu.upc.schedule.resource.CreateStudentResource;
-import pe.edu.upc.schedule.resource.StudentResource;
-import pe.edu.upc.schedule.resource.UpdateStudentResource;
+import pe.edu.upc.schedule.appointment.domain.model.entity.Student;
+import pe.edu.upc.schedule.appointment.domain.service.StudentService;
+import pe.edu.upc.schedule.appointment.mapping.StudentMapper;
+import pe.edu.upc.schedule.appointment.resource.CreateStudentResource;
+import pe.edu.upc.schedule.appointment.resource.StudentResource;
+import pe.edu.upc.schedule.appointment.resource.UpdateStudentResource;
 
 import java.util.List;
 

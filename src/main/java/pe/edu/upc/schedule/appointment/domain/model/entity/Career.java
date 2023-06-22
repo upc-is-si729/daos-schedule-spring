@@ -1,4 +1,4 @@
-package pe.edu.upc.schedule.domain.model.entity;
+package pe.edu.upc.schedule.appointment.domain.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

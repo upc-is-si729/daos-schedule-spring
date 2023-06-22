@@ -1,7 +1,7 @@
-package pe.edu.upc.schedule.api;
+package pe.edu.upc.schedule.appointment.api;
 
 import lombok.AllArgsConstructor;
-import pe.edu.upc.schedule.domain.service.StudentService;
+import pe.edu.upc.schedule.appointment.domain.service.StudentService;
 
 // 3. Lombook
 @AllArgsConstructor

@@ -1,6 +1,6 @@
-package pe.edu.upc.schedule.domain.service;
+package pe.edu.upc.schedule.appointment.domain.service;
 
-import pe.edu.upc.schedule.domain.model.entity.Student;
+import pe.edu.upc.schedule.appointment.domain.model.entity.Student;
 
 import java.util.List;
 import java.util.Optional;

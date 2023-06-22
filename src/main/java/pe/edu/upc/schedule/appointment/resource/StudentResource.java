@@ -1,4 +1,4 @@
-package pe.edu.upc.schedule.resource;
+package pe.edu.upc.schedule.appointment.resource;
 
 import lombok.*;
 

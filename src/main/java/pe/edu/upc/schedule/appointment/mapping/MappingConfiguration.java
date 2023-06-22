@@ -1,4 +1,4 @@
-package pe.edu.upc.schedule.mapping;
+package pe.edu.upc.schedule.appointment.mapping;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

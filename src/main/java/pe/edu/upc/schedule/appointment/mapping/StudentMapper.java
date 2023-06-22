@@ -1,10 +1,10 @@
-package pe.edu.upc.schedule.mapping;
+package pe.edu.upc.schedule.appointment.mapping;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import pe.edu.upc.schedule.domain.model.entity.Student;
-import pe.edu.upc.schedule.resource.CreateStudentResource;
-import pe.edu.upc.schedule.resource.StudentResource;
-import pe.edu.upc.schedule.resource.UpdateStudentResource;
+import pe.edu.upc.schedule.appointment.domain.model.entity.Student;
+import pe.edu.upc.schedule.appointment.resource.CreateStudentResource;
+import pe.edu.upc.schedule.appointment.resource.StudentResource;
+import pe.edu.upc.schedule.appointment.resource.UpdateStudentResource;
 import pe.edu.upc.schedule.shared.mapping.EnhancedModelMapper;
 
 import java.io.Serializable;

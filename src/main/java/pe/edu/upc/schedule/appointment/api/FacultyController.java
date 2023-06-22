@@ -1,4 +1,4 @@
-package pe.edu.upc.schedule.api;
+package pe.edu.upc.schedule.appointment.api;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;

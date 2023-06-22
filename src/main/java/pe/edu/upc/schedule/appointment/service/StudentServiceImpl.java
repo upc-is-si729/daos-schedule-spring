@@ -1,13 +1,13 @@
-package pe.edu.upc.schedule.service;
+package pe.edu.upc.schedule.appointment.service;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import pe.edu.upc.schedule.domain.model.entity.Student;
-import pe.edu.upc.schedule.domain.persistence.StudentRepository;
-import pe.edu.upc.schedule.domain.service.StudentService;
+import pe.edu.upc.schedule.appointment.domain.model.entity.Student;
+import pe.edu.upc.schedule.appointment.domain.persistence.StudentRepository;
+import pe.edu.upc.schedule.appointment.domain.service.StudentService;
 import pe.edu.upc.schedule.shared.Constant;
 import pe.edu.upc.schedule.shared.exception.ResourceNotFoundException;
 import pe.edu.upc.schedule.shared.exception.ResourceValidationException;
